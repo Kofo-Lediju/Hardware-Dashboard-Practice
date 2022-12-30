@@ -1,0 +1,20 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+  width: 180px;
+  background-color: rgb(236, 213, 171);
+  padding: 10px 10px;
+}
+
+.dept {
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.content {
+  padding-bottom: 10px;
+  margin-left: 10px;
+}

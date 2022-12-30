@@ -1,0 +1,49 @@
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(61, 182, 222);
+  padding: 5px 0;
+  color: rgb(9, 9, 150);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  top: 0;
+}
+
+.tools-icon, .checkout-icon {
+  width: 30px;
+}
+
+.right, .left, .checkout  {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  padding-left: 30px;
+  gap: 10px;
+}
+
+.right {
+  padding-right: 30px;
+  gap: 30px;
+}
+
+.header-button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-size: 14px;
+  padding: 12px 9px;
+  border-radius: 5px;
+}
+
+.header-button:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
